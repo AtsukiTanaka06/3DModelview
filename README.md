@@ -1,46 +1,70 @@
-# 3D Graphic Experience
+# 3D Model Viewer
 
-インタラクティブな 3D グラフィック体験を提供する Web アプリケーションです。
+An interactive 3D model viewer with dynamic color schemes and camera controls.
 
-## 機能
+## Features
 
-- 3D モデルの表示と操作
-- カラースキームの変更
-- インタラクティブなカメラコントロール
-- レスポンシブデザイン
-- タッチデバイス対応
+- Interactive 3D model display and manipulation
+- Dynamic color scheme customization
+- Smooth color transitions using GSAP
+- Interactive camera controls
+- Responsive design for all devices
+- Touch device support with gesture controls
+- Auto-rotation feature
+- Particle effects and lighting
 
-## 技術スタック
+## Tech Stack
 
-- Three.js
-- GSAP (GreenSock Animation Platform)
-- HTML5
-- CSS3
-- JavaScript
+- Three.js for 3D rendering
+- GSAP (GreenSock Animation Platform) for animations
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Hammer.js for touch gestures
 
-## セットアップ
+## Setup
 
-1. リポジトリをクローン
-
-```bash
-git clone [リポジトリURL]
-```
-
-2. プロジェクトディレクトリに移動
+1. Clone the repository
 
 ```bash
-cd 3D-Graphic
+git clone https://github.com/AtsukiTanaka06/3DModelview.git
 ```
 
-3. ブラウザで`index.html`を開く
+2. Navigate to the project directory
 
-## 使用方法
+```bash
+cd 3DModelview
+```
 
-- マウスドラッグ：カメラ回転
-- マウスホイール：ズームイン/アウト
-- カラーボタン：色の変更
-- 形状ボタン：特定の形状にフォーカス
+3. Open `index.html` in your browser
 
-## ライセンス
+## Usage
+
+### Camera Controls
+
+- Mouse drag: Rotate camera
+- Mouse wheel: Zoom in/out
+- Touch drag: Rotate camera (mobile)
+- Pinch gesture: Zoom in/out (mobile)
+
+### Color Controls
+
+- Color buttons: Change color scheme
+- Custom color picker: Create custom color schemes
+
+### Shape Controls
+
+- Shape buttons: Focus on specific shapes
+- Auto-rotation: Automatic camera movement
+
+## Development
+
+The project uses vanilla JavaScript with Three.js for 3D rendering. Key features include:
+
+- Dynamic color scheme generation
+- Smooth transitions using GSAP
+- Responsive design with mobile-first approach
+- Touch gesture support using Hammer.js
+
+## License
 
 MIT License
